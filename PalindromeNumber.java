@@ -7,7 +7,7 @@ public class PalindromeNum {
 		
 		int num,rem,rev = 0;
 		
-    System.out.println("Enter a Number");
+    		System.out.println("Enter a Number");
 		
 		Scanner input = new Scanner(System.in);
 		
@@ -19,19 +19,19 @@ public class PalindromeNum {
 		{
 			rem = temp % 10;
 			
-      rev = rev * 10 + rem;
+      			rev = rev * 10 + rem;
 			
-      temp = temp / 10;
+      			temp = temp / 10;
 			
 		}
 		
-    if(num == rev)
+    		if(num == rev)
 		
-    {
+    		{
 			
-      System.out.println( num +" is a Palindrome Number");
+      			System.out.println( num +" is a Palindrome Number");
 		
-    }
+    		}
 		else
 		{
 			System.out.println( num +" is not a Palindrome Number");
