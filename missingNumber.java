@@ -15,7 +15,7 @@ public class MissingNumber {
 			sum = sum + arr[i];
 		}
 		
-		int total = (arr.length+1)*(arr.length + 2)/2;
+		int total = (arr.length)*(arr.length + 1)/2;
 		
 		if(total == sum)
 		{
