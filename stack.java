@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class MyProgram {
+public class stack {
 
 	static void stack_push(Stack<Integer>MyStack,int i)
 	{
